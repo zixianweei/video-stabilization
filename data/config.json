@@ -1,0 +1,9 @@
+{
+    "inputPath": "",
+    "outputPath": "",
+    "goodMatchCorners": {
+        "maxCorners": 200,
+        "qualityLevel": 0.01,
+        "minDistance": 30.0
+    }
+}

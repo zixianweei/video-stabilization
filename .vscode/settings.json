@@ -1,0 +1,23 @@
+{
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+    "debug.toolBarLocation": "docked",
+    "debug.console.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "debug.console.fontSize": 12,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureArgs": [
+        "-GNinja",
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--header-insertion=never",
+        "--clang-tidy",
+        "--j=2",
+        "--background-index",
+        "--query-driver=/usr/bin/clang++"
+    ],
+}

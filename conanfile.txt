@@ -1,0 +1,11 @@
+[requires]
+fmt/10.0.0
+opencv/4.5.5
+rapidjson/cci.20200410
+
+[generators]
+cmake
+cmake_paths
+cmake_find_package
+
+[options]
