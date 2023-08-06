@@ -77,10 +77,10 @@ For soft-pipeline, the main contribution of this repository, it looks like a CPU
 
 ## License
 
-This program is under an MIT-style license. You can find it here: [LICENSE](LICENSE).
+This project is under an MIT-style license. You can find it here: [LICENSE](LICENSE).
 
 ## Miscellaneous
 
-For boost version of this program, there can be some bugs, like dead lock or even program crash (I have try my best to aviod them.). If you have faced one of them, please create an issue and let me know about the problem.
+For boost version, there can be some bugs, like dead lock or even program crash. I have try my best to aviod them. If you are faced with any problems, please create an issue and let me know.
 
-Besides, issues about anything else is welcomed.
+Besides, issues about anything else are welcomed.
