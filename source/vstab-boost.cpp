@@ -114,8 +114,8 @@ void filtAffineTransform(const std::vector<cv::Point2f>& prevCorners,
   cv::Mat transform = cv::estimateAffinePartial2D(prevCorners, nextCorners);
   if (!transform.empty()) {
     // 静态局部变量 在第一次访问时被初始化
-    static Trajectory X = Trajectory::one();
-    static Trajectory P = Trajectory::zero();
+    static Trajectory X = Trajectory::zero();
+    static Trajectory P = Trajectory::one();
     static Trajectory Q = Trajectory::all(4e-3);
     static Trajectory R = Trajectory::all(0.25);
 
